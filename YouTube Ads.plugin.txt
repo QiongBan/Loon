@@ -1,0 +1,6 @@
+[URL Rewrite]
+https://*.googlevideo.com.*&(oad|ctier) reject-200
+ctier=[A-Z] citer=A 302
+
+[MITM]
+hostname = *.googlevideo.com
